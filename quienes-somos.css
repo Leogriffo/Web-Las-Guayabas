@@ -1,0 +1,147 @@
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-image: url(fondo-lechuga.jpg) ; 
+    font-size: 20px;
+}
+/* ----------------------    MENU     --------------- */
+#header {
+    margin-top: 0px;
+    margin-left: 14px;
+    width: 500px;
+}
+ul, ol {
+    list-style: none;
+}
+.nav li a {
+    background-color: rgb(20, 75, 15);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: block;
+    border-radius: 10px;
+    margin: 1px;
+}
+.nav li a:hover{
+    background-color: #434343;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none ;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover  > ul {
+    display: block;
+}
+/*--------------------------LOGOS CABECERA ----------------*/
+.logo-cafecito {
+    width: 110px;
+    height: 110px;
+    padding-left: 680px;  
+    display: inline-block;
+    position: absolute;
+}
+.logo-huerta {
+    width: 100px;
+    height: 100px;
+    padding-left: 800px;
+    display: inline-block;
+    position: absolute;
+}
+
+/*--------------       TITULO           -------------------*/
+h1 {
+    margin: 0px auto;
+    font-size: 50px;
+    font-weight: 100%;
+    position:center;
+    background-color: rgb(42, 138, 33);
+    height: 60px;
+    width: 500px;
+    border-radius: 10px 10px;
+    text-align: center ;
+    
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.container-slider {
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 120px;
+    overflow: hidden; 
+    box-shadow: 0 0 0 10px #06660e,
+                0 15px 50px;
+    position: relative;
+    border-radius: 5px;
+
+
+}
+.slider {
+    display: flex;
+    width: 800%;
+    height: 400px;
+    margin-left: -100%;
+}
+.slider__section {
+    width: 100%;
+}
+.slider__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider__btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255,255,255,0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider__btn:hover {
+    background: #fff;
+}
+.slider__btn--left{
+    left: 10px;
+}
+.slider__btn--right {
+    right: 10px;
+}
+
+/* -----------  TEXTO PIE    ---------------*/
+
+p {
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px #000;
+    line-height: 1.5;
+    font-family: 'Staatliches', cursive;
+    }
+
+.contactos {
+        text-align: center;
+        position: relative;
+        font-weight: bold;
+    }
+.contacto {
+        width: auto;
+        color: #000;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        position: relative;
+    }
